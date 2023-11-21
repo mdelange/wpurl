@@ -1,0 +1,24 @@
+{
+    "name": "mdelange/wpurl",
+    "description": "URL helpers for WordPress",
+    "license": "proprietary",
+    "type": "library",
+    "version": "1.0",
+    "autoload": {
+        "files": ["url.php"]
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "install-test-deps": "curl https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/link-template.php -o tests/deps/wp/link-template.php"
+    },
+    "archive": {
+        "exclude": ["/tests"]
+    }
+}
