@@ -1,0 +1,8 @@
+node_modules
+dist
+cache
+vendor
+build_dev
+build_prod
+.DS_Store
+.php-cs-fixer.cache
