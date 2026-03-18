@@ -8,11 +8,13 @@
         "files": ["url.php"]
     },
     "require-dev": {
-        "pestphp/pest": "^2.2"
+        "vildanbina/composer-upgrader": "^1.2",
+        "pestphp/pest": "^4.4.2"
     },
     "config": {
         "allow-plugins": {
-            "pestphp/pest-plugin": true
+            "pestphp/pest-plugin": true,
+            "vildanbina/composer-upgrader": true
         }
     },
     "scripts": {
